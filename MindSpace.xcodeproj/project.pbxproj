@@ -24,6 +24,7 @@
 		0976D3E92C5C8C650096744D /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0976D3E82C5C8C650096744D /* Journal.swift */; };
 		0976D3EB2C5C8C760096744D /* NewEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0976D3EA2C5C8C760096744D /* NewEntryView.swift */; };
 		0976D3ED2C5C8C990096744D /* EntryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0976D3EC2C5C8C990096744D /* EntryItem.swift */; };
+		09AAB04A2C5D36A200C5EAF7 /* Klasik Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 09AAB0492C5D36A200C5EAF7 /* Klasik Regular.otf */; };
 		7D34C77C2C5C828100D803EB /* MindSpaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D34C77B2C5C828100D803EB /* MindSpaceApp.swift */; };
 		7D34C77E2C5C828100D803EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D34C77D2C5C828100D803EB /* ContentView.swift */; };
 		7D34C7802C5C828400D803EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D34C77F2C5C828400D803EB /* Assets.xcassets */; };
@@ -33,7 +34,6 @@
 		7D34C78F2C5C86A400D803EB /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D34C78E2C5C86A400D803EB /* ResultsView.swift */; };
 		7D34C7912C5C86CB00D803EB /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D34C7902C5C86CB00D803EB /* QuestionView.swift */; };
 		7D34C7932C5C86DA00D803EB /* SurveyQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D34C7922C5C86DA00D803EB /* SurveyQuestion.swift */; };
-		A3D9F0492C5D2C6700F55413 /* Klasik Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A3D9F0482C5D2C6700F55413 /* Klasik Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +54,7 @@
 		0976D3E82C5C8C650096744D /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
 		0976D3EA2C5C8C760096744D /* NewEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEntryView.swift; sourceTree = "<group>"; };
 		0976D3EC2C5C8C990096744D /* EntryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryItem.swift; sourceTree = "<group>"; };
+		09AAB0492C5D36A200C5EAF7 /* Klasik Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Klasik Regular.otf"; path = "../../../../Downloads/Klasik_Font/Klasik Regular.otf"; sourceTree = "<group>"; };
 		7D34C7782C5C828100D803EB /* MindSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D34C77B2C5C828100D803EB /* MindSpaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindSpaceApp.swift; sourceTree = "<group>"; };
 		7D34C77D2C5C828100D803EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,7 +65,6 @@
 		7D34C78E2C5C86A400D803EB /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
 		7D34C7902C5C86CB00D803EB /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		7D34C7922C5C86DA00D803EB /* SurveyQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyQuestion.swift; sourceTree = "<group>"; };
-		A3D9F0482C5D2C6700F55413 /* Klasik Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Klasik Regular.otf"; path = "../../../Downloads/Klasik_Font/Klasik Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,7 +152,7 @@
 		7D34C77A2C5C828100D803EB /* MindSpace */ = {
 			isa = PBXGroup;
 			children = (
-				A3D9F0482C5D2C6700F55413 /* Klasik Regular.otf */,
+				09AAB0492C5D36A200C5EAF7 /* Klasik Regular.otf */,
 				7D34C77B2C5C828100D803EB /* MindSpaceApp.swift */,
 				7D34C77D2C5C828100D803EB /* ContentView.swift */,
 				0976D3DD2C5C8B960096744D /* Home Screen */,
@@ -243,7 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D34C7832C5C828400D803EB /* Preview Assets.xcassets in Resources */,
-				A3D9F0492C5D2C6700F55413 /* Klasik Regular.otf in Resources */,
+				09AAB04A2C5D36A200C5EAF7 /* Klasik Regular.otf in Resources */,
 				7D34C7802C5C828400D803EB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
