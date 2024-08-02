@@ -33,6 +33,8 @@
 		7D34C78F2C5C86A400D803EB /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D34C78E2C5C86A400D803EB /* ResultsView.swift */; };
 		7D34C7912C5C86CB00D803EB /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D34C7902C5C86CB00D803EB /* QuestionView.swift */; };
 		7D34C7932C5C86DA00D803EB /* SurveyQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D34C7922C5C86DA00D803EB /* SurveyQuestion.swift */; };
+		7D34C7952C5CA10500D803EB /* How To Stop a Panic Attack _ Breathing Exercises for Stress Relief _ TAKE A DEEP BREATH.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7D34C7942C5CA10500D803EB /* How To Stop a Panic Attack _ Breathing Exercises for Stress Relief _ TAKE A DEEP BREATH.mp4 */; };
+		7D34C7982C5CA1DA00D803EB /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D34C7972C5CA1DA00D803EB /* VideoPlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +65,9 @@
 		7D34C78E2C5C86A400D803EB /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
 		7D34C7902C5C86CB00D803EB /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		7D34C7922C5C86DA00D803EB /* SurveyQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyQuestion.swift; sourceTree = "<group>"; };
+		7D34C7942C5CA10500D803EB /* How To Stop a Panic Attack _ Breathing Exercises for Stress Relief _ TAKE A DEEP BREATH.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "How To Stop a Panic Attack _ Breathing Exercises for Stress Relief _ TAKE A DEEP BREATH.mp4"; path = "../../../../Downloads/How To Stop a Panic Attack _ Breathing Exercises for Stress Relief _ TAKE A DEEP BREATH.mp4"; sourceTree = "<group>"; };
+		7D34C7962C5CA13C00D803EB /* PanickAttackVid */ = {isa = PBXFileReference; lastKnownFileType = file; path = PanickAttackVid; sourceTree = "<group>"; };
+		7D34C7972C5CA1DA00D803EB /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +161,7 @@
 				7D34C77B2C5C828100D803EB /* MindSpaceApp.swift */,
 				7D34C77D2C5C828100D803EB /* ContentView.swift */,
 				7D34C77F2C5C828400D803EB /* Assets.xcassets */,
+				7D34C7962C5CA13C00D803EB /* PanickAttackVid */,
 				7D34C7812C5C828400D803EB /* Preview Content */,
 			);
 			path = MindSpace;
@@ -165,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				7D34C7822C5C828400D803EB /* Preview Assets.xcassets */,
+				7D34C7942C5CA10500D803EB /* How To Stop a Panic Attack _ Breathing Exercises for Stress Relief _ TAKE A DEEP BREATH.mp4 */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -173,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				7D34C78E2C5C86A400D803EB /* ResultsView.swift */,
+				7D34C7972C5CA1DA00D803EB /* VideoPlayerView.swift */,
 				7D34C78A2C5C85F500D803EB /* MentalHealthScreen.swift */,
 				7D34C78C2C5C867400D803EB /* Mental.swift */,
 				7D34C7902C5C86CB00D803EB /* QuestionView.swift */,
@@ -240,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D34C7832C5C828400D803EB /* Preview Assets.xcassets in Resources */,
+				7D34C7952C5CA10500D803EB /* How To Stop a Panic Attack _ Breathing Exercises for Stress Relief _ TAKE A DEEP BREATH.mp4 in Resources */,
 				7D34C7802C5C828400D803EB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +279,7 @@
 				7D34C7912C5C86CB00D803EB /* QuestionView.swift in Sources */,
 				7D34C7932C5C86DA00D803EB /* SurveyQuestion.swift in Sources */,
 				0976D3E52C5C8C280096744D /* NewToDoView.swift in Sources */,
+				7D34C7982C5CA1DA00D803EB /* VideoPlayerView.swift in Sources */,
 				0976D3EB2C5C8C760096744D /* NewEntryView.swift in Sources */,
 				0976D3DF2C5C8BA60096744D /* HomeScreen.swift in Sources */,
 				7D34C78B2C5C85F500D803EB /* MentalHealthScreen.swift in Sources */,
