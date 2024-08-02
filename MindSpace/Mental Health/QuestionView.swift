@@ -12,9 +12,11 @@ struct QuestionView: View {
     
     var body: some View {
         ZStack {
-            // Background Color
-            Color(hex: "FFF3E9") // Replace with your desired background color
-            
+            Image("bg 3")
+                .resizable()
+                .scaledToFill()
+                .ignoresSafeArea()
+                .offset(y: 150)
             VStack {
                 Text(question.text)
                     .padding(.bottom, 20)
@@ -40,8 +42,9 @@ struct QuestionView: View {
                     }
                 }
             }
-            .padding() // Ensure the VStack has some padding
+            .padding()
         }
-        .edgesIgnoringSafeArea(.all) // Extend the background color to the edges of the screen
+        .background(Color(hex: "FFF2E9"))
+        .edgesIgnoringSafeArea(.all)
     }
 }

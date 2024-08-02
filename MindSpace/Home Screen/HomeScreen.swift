@@ -23,6 +23,7 @@ struct HomeScreen: View {
                         .foregroundColor(Color(hex: "573353"))
                         .multilineTextAlignment(.center)
                         .padding(.top, 100)
+                        .offset(y: 30)
                     
                     Spacer()
                     

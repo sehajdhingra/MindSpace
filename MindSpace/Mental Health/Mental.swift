@@ -32,7 +32,7 @@ struct Mental: View {
                         .cornerRadius(8)
                         .padding(.top, 10)
                 }
-            } //.offset(y: 200)
+            } 
             
         }
     }

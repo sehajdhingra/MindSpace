@@ -5,26 +5,34 @@ struct ResultsView: View {
     let onRetake: () -> Void
     
     var body: some View {
-        VStack {
-            Text("Results")
-                .padding(.bottom, 20)
-                .foregroundColor(Color(hex: "573353"))
-                .font(.custom("Klasik Regular", size: 35))
-                .multilineTextAlignment(.center)
-                .padding(.horizontal, 20.0)
+        ZStack {
+            Image("Background")
+                .resizable()
+                .scaledToFill()
+                .frame(width: 430, height: 932)
+                .opacity(0.3)
             
-            Text(feedbackMessage())
-                .frame(width: 300)
-                .padding()
-                .background(Color(hex: "FDA758"))
-                .cornerRadius(8)
-                .padding(.bottom, 10)
-                .foregroundColor(Color(hex: "573353"))
-                .font(.custom("Klasik Regular", size: 15))
-                .multilineTextAlignment(.center)
-                .padding(.horizontal, 20.0)
-            
-            
+            VStack {
+                Text("Results")
+                    .padding(.bottom, 20)
+                    .foregroundColor(Color(hex: "573353"))
+                    .font(.custom("Klasik Regular", size: 35))
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 20.0)
+                
+                Text(feedbackMessage())
+                    .frame(width: 300)
+                    .padding()
+                    .background(Color(hex: "FDA758"))
+                    .cornerRadius(8)
+                    .padding(.bottom, 10)
+                    .foregroundColor(Color(hex: "573353"))
+                    .font(.custom("Klasik Regular", size: 15))
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 20.0)
+                
+                
+            }
         }
     }
     
