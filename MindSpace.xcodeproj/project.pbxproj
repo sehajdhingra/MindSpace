@@ -11,6 +11,11 @@
 		7D34C77E2C5C828100D803EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D34C77D2C5C828100D803EB /* ContentView.swift */; };
 		7D34C7802C5C828400D803EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D34C77F2C5C828400D803EB /* Assets.xcassets */; };
 		7D34C7832C5C828400D803EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D34C7822C5C828400D803EB /* Preview Assets.xcassets */; };
+		7D34C78B2C5C85F500D803EB /* MentalHealthScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D34C78A2C5C85F500D803EB /* MentalHealthScreen.swift */; };
+		7D34C78D2C5C867400D803EB /* Mental.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D34C78C2C5C867400D803EB /* Mental.swift */; };
+		7D34C78F2C5C86A400D803EB /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D34C78E2C5C86A400D803EB /* ResultsView.swift */; };
+		7D34C7912C5C86CB00D803EB /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D34C7902C5C86CB00D803EB /* QuestionView.swift */; };
+		7D34C7932C5C86DA00D803EB /* SurveyQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D34C7922C5C86DA00D803EB /* SurveyQuestion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		7D34C77D2C5C828100D803EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D34C77F2C5C828400D803EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D34C7822C5C828400D803EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D34C78A2C5C85F500D803EB /* MentalHealthScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalHealthScreen.swift; sourceTree = "<group>"; };
+		7D34C78C2C5C867400D803EB /* Mental.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mental.swift; sourceTree = "<group>"; };
+		7D34C78E2C5C86A400D803EB /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		7D34C7902C5C86CB00D803EB /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		7D34C7922C5C86DA00D803EB /* SurveyQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyQuestion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,7 @@
 		7D34C77A2C5C828100D803EB /* MindSpace */ = {
 			isa = PBXGroup;
 			children = (
+				7D34C7892C5C853A00D803EB /* Mental Health */,
 				7D34C77B2C5C828100D803EB /* MindSpaceApp.swift */,
 				7D34C77D2C5C828100D803EB /* ContentView.swift */,
 				7D34C77F2C5C828400D803EB /* Assets.xcassets */,
@@ -65,6 +76,18 @@
 				7D34C7822C5C828400D803EB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7D34C7892C5C853A00D803EB /* Mental Health */ = {
+			isa = PBXGroup;
+			children = (
+				7D34C78E2C5C86A400D803EB /* ResultsView.swift */,
+				7D34C78A2C5C85F500D803EB /* MentalHealthScreen.swift */,
+				7D34C78C2C5C867400D803EB /* Mental.swift */,
+				7D34C7902C5C86CB00D803EB /* QuestionView.swift */,
+				7D34C7922C5C86DA00D803EB /* SurveyQuestion.swift */,
+			);
+			path = "Mental Health";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +160,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D34C78D2C5C867400D803EB /* Mental.swift in Sources */,
 				7D34C77E2C5C828100D803EB /* ContentView.swift in Sources */,
 				7D34C77C2C5C828100D803EB /* MindSpaceApp.swift in Sources */,
+				7D34C78F2C5C86A400D803EB /* ResultsView.swift in Sources */,
+				7D34C7912C5C86CB00D803EB /* QuestionView.swift in Sources */,
+				7D34C7932C5C86DA00D803EB /* SurveyQuestion.swift in Sources */,
+				7D34C78B2C5C85F500D803EB /* MentalHealthScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
