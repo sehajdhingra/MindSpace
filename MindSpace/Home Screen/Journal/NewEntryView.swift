@@ -8,7 +8,6 @@
 import SwiftUI
 import SwiftData
 
-
 struct NewEntryView: View {
     @Bindable var EntryItem: EntryItem
     @Environment(\.modelContext) var modelContext
@@ -16,11 +15,14 @@ struct NewEntryView: View {
     
     var body: some View {
         VStack {
+            Spacer()
             Text("Entry: ")
-                .font(.title)
+                .font(.custom("Klasik Regular", size: 30))
+                .foregroundColor(Color(hex: "573353"))
                 .fontWeight(.bold)
-                .offset(x: -130)
-                .offset(y: 25)
+                .offset(x: -120)
+                .offset(y: 10)
+            
             TextField("Enter here...", text: $EntryItem.title, axis: .vertical)
                 .padding()
                 .background(Color(.systemGroupedBackground))
@@ -31,15 +33,16 @@ struct NewEntryView: View {
                 addEntry()
                 self.showNewEntry = false
             } label: {
-                Image("saveButton")
+                Image("Check Button")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 60, height: 60)
-                    .offset(y: -15)
+                    .frame(width: 120, height: 120)
+                    .offset(y: -50)
             }
-
         }
     }
+    
+
     
     func addEntry() {
         let entry = MindSpace.EntryItem(title: EntryItem.title)

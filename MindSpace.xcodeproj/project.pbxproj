@@ -33,8 +33,10 @@
 		7D34C78F2C5C86A400D803EB /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D34C78E2C5C86A400D803EB /* ResultsView.swift */; };
 		7D34C7912C5C86CB00D803EB /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D34C7902C5C86CB00D803EB /* QuestionView.swift */; };
 		7D34C7932C5C86DA00D803EB /* SurveyQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D34C7922C5C86DA00D803EB /* SurveyQuestion.swift */; };
-		7D34C7952C5CA10500D803EB /* How To Stop a Panic Attack _ Breathing Exercises for Stress Relief _ TAKE A DEEP BREATH.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7D34C7942C5CA10500D803EB /* How To Stop a Panic Attack _ Breathing Exercises for Stress Relief _ TAKE A DEEP BREATH.mp4 */; };
 		7D34C7982C5CA1DA00D803EB /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D34C7972C5CA1DA00D803EB /* VideoPlayerView.swift */; };
+		A336E9552C5CED600037631C /* Klasik Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A336E9542C5CED600037631C /* Klasik Regular.otf */; };
+		A336E9572C5CFDC20037631C /* Breathing Exercises To Stop A Panic Attack Now _ TAKE A DEEP BREATH.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A336E9562C5CFDC20037631C /* Breathing Exercises To Stop A Panic Attack Now _ TAKE A DEEP BREATH.mp4 */; };
+		A336E95A2C5CFE5E0037631C /* Anxiety Attack.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A336E9592C5CFE5E0037631C /* Anxiety Attack.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,9 +67,10 @@
 		7D34C78E2C5C86A400D803EB /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
 		7D34C7902C5C86CB00D803EB /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		7D34C7922C5C86DA00D803EB /* SurveyQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyQuestion.swift; sourceTree = "<group>"; };
-		7D34C7942C5CA10500D803EB /* How To Stop a Panic Attack _ Breathing Exercises for Stress Relief _ TAKE A DEEP BREATH.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "How To Stop a Panic Attack _ Breathing Exercises for Stress Relief _ TAKE A DEEP BREATH.mp4"; path = "../../../../Downloads/How To Stop a Panic Attack _ Breathing Exercises for Stress Relief _ TAKE A DEEP BREATH.mp4"; sourceTree = "<group>"; };
-		7D34C7962C5CA13C00D803EB /* PanickAttackVid */ = {isa = PBXFileReference; lastKnownFileType = file; path = PanickAttackVid; sourceTree = "<group>"; };
 		7D34C7972C5CA1DA00D803EB /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		A336E9542C5CED600037631C /* Klasik Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Klasik Regular.otf"; path = "../../../Downloads/Klasik_Font/Klasik Regular.otf"; sourceTree = "<group>"; };
+		A336E9562C5CFDC20037631C /* Breathing Exercises To Stop A Panic Attack Now _ TAKE A DEEP BREATH.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Breathing Exercises To Stop A Panic Attack Now _ TAKE A DEEP BREATH.mp4"; sourceTree = "<group>"; };
+		A336E9592C5CFE5E0037631C /* Anxiety Attack.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Anxiety Attack.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				0976D3DE2C5C8BA60096744D /* HomeScreen.swift */,
-				0976D3E02C5C8BE20096744D /* Tasks */,
 				0976D3E12C5C8BE90096744D /* Journal */,
+				0976D3E02C5C8BE20096744D /* Tasks */,
 			);
 			path = "Home Screen";
 			sourceTree = "<group>";
@@ -155,13 +158,15 @@
 		7D34C77A2C5C828100D803EB /* MindSpace */ = {
 			isa = PBXGroup;
 			children = (
+				A336E9542C5CED600037631C /* Klasik Regular.otf */,
+				7D34C77B2C5C828100D803EB /* MindSpaceApp.swift */,
+				7D34C77D2C5C828100D803EB /* ContentView.swift */,
 				0976D3DD2C5C8B960096744D /* Home Screen */,
 				0976D3C72C5C88B30096744D /* Calendar */,
 				7D34C7892C5C853A00D803EB /* Mental Health */,
-				7D34C77B2C5C828100D803EB /* MindSpaceApp.swift */,
-				7D34C77D2C5C828100D803EB /* ContentView.swift */,
 				7D34C77F2C5C828400D803EB /* Assets.xcassets */,
-				7D34C7962C5CA13C00D803EB /* PanickAttackVid */,
+				A336E9562C5CFDC20037631C /* Breathing Exercises To Stop A Panic Attack Now _ TAKE A DEEP BREATH.mp4 */,
+				A336E9592C5CFE5E0037631C /* Anxiety Attack.mp4 */,
 				7D34C7812C5C828400D803EB /* Preview Content */,
 			);
 			path = MindSpace;
@@ -171,7 +176,6 @@
 			isa = PBXGroup;
 			children = (
 				7D34C7822C5C828400D803EB /* Preview Assets.xcassets */,
-				7D34C7942C5CA10500D803EB /* How To Stop a Panic Attack _ Breathing Exercises for Stress Relief _ TAKE A DEEP BREATH.mp4 */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -179,11 +183,11 @@
 		7D34C7892C5C853A00D803EB /* Mental Health */ = {
 			isa = PBXGroup;
 			children = (
-				7D34C78E2C5C86A400D803EB /* ResultsView.swift */,
-				7D34C7972C5CA1DA00D803EB /* VideoPlayerView.swift */,
 				7D34C78A2C5C85F500D803EB /* MentalHealthScreen.swift */,
 				7D34C78C2C5C867400D803EB /* Mental.swift */,
 				7D34C7902C5C86CB00D803EB /* QuestionView.swift */,
+				7D34C78E2C5C86A400D803EB /* ResultsView.swift */,
+				7D34C7972C5CA1DA00D803EB /* VideoPlayerView.swift */,
 				7D34C7922C5C86DA00D803EB /* SurveyQuestion.swift */,
 			);
 			path = "Mental Health";
@@ -248,7 +252,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D34C7832C5C828400D803EB /* Preview Assets.xcassets in Resources */,
-				7D34C7952C5CA10500D803EB /* How To Stop a Panic Attack _ Breathing Exercises for Stress Relief _ TAKE A DEEP BREATH.mp4 in Resources */,
+				A336E9552C5CED600037631C /* Klasik Regular.otf in Resources */,
+				A336E9572C5CFDC20037631C /* Breathing Exercises To Stop A Panic Attack Now _ TAKE A DEEP BREATH.mp4 in Resources */,
+				A336E95A2C5CFE5E0037631C /* Anxiety Attack.mp4 in Resources */,
 				7D34C7802C5C828400D803EB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,8 +424,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MindSpace/Preview Content\"";
+				DEVELOPMENT_TEAM = NP9U8U4U2G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MindSpace/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -446,8 +454,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MindSpace/Preview Content\"";
+				DEVELOPMENT_TEAM = NP9U8U4U2G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MindSpace/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

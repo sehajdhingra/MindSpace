@@ -11,25 +11,37 @@ struct QuestionView: View {
     let onOptionSelected: (Int) -> Void
     
     var body: some View {
-        VStack {
-            Text(question.text)
-                .font(.headline)
-                .padding(.bottom, 20)
+        ZStack {
+            // Background Color
+            Color(hex: "FFF3E9") // Replace with your desired background color
             
-            ForEach(0..<question.options.count, id: \.self) { index in
-                Button(action: {
-                    onOptionSelected(index)
-                }) {
-                    Text(question.options[index])
-                        .padding()
-                        .background(Color.blue)
-                        .foregroundColor(.white)
-                        .cornerRadius(8)
-                        .padding(.bottom, 10)
+            VStack {
+                Text(question.text)
+                    .padding(.bottom, 20)
+                    .foregroundColor(Color(hex: "573353"))
+                    .font(.custom("Klasik Regular", size: 25))
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 20.0)
+                
+                ForEach(0..<question.options.count, id: \.self) { index in
+                    Button(action: {
+                        onOptionSelected(index)
+                    }) {
+                        Text(question.options[index])
+                            .frame(width: 300)
+                            .padding()
+                            .background(Color(hex: "FDA758"))
+                            .cornerRadius(8)
+                            .padding(.bottom, 10)
+                            .foregroundColor(Color(hex: "573353"))
+                            .font(.custom("Klasik Regular", size: 15))
+                            .multilineTextAlignment(.center)
+                            .padding(.horizontal, 20.0)
+                    }
                 }
             }
+            .padding() // Ensure the VStack has some padding
         }
+        .edgesIgnoringSafeArea(.all) // Extend the background color to the edges of the screen
     }
 }
-
-

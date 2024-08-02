@@ -26,7 +26,7 @@ struct ContentView: View {
                     Text("Mental Health")
                 }
             }
-            // .accentColor(Color(hex: "FDA758"))
+            .accentColor(Color(hex: "FDA758"))
         }
     }
 }

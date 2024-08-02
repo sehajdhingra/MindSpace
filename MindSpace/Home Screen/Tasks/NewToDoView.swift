@@ -4,11 +4,8 @@
 //
 //  Created by Nadia Begum on 31/07/2024.
 //
-
 import SwiftUI
 import SwiftData
-
-
 struct NewToDoView: View {
     @Bindable var toDoItem: ToDoItem
     @Environment(\.modelContext) var modelContext
@@ -16,11 +13,13 @@ struct NewToDoView: View {
     
     var body: some View {
         VStack {
+            Spacer()
             Text("Task Title: ")
-                .font(.title)
+                .font(.custom("Klasik Regular", size: 30))
+                .foregroundColor(Color(hex: "573353"))
                 .fontWeight(.bold)
-                .offset(y: 15)
-            TextField("Enter the task description...", text: $toDoItem.title, axis: .vertical)
+            
+            TextField("Enter the task...", text: $toDoItem.title, axis: .vertical)
                 .padding()
                 .background(Color(.systemGroupedBackground))
                 .cornerRadius(15)
@@ -30,13 +29,12 @@ struct NewToDoView: View {
                 addToDo()
                 self.showNewTask = false
             } label: {
-                Image("saveButton")
+                Image("Check Button")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    .frame(width: 60, height: 60)
-                    .offset(y: -15)
+                    .frame(width: 120, height: 120)
+                    .offset(y: -50)
             }
-
         }
     }
     
@@ -45,11 +43,9 @@ struct NewToDoView: View {
         modelContext.insert(toDo)
     }
 }
-
 #Preview {
     let config = ModelConfiguration(isStoredInMemoryOnly: true)
     let container = try! ModelContainer(for: ToDoItem.self, configurations: config)
-
     let toDo = ToDoItem(title: "Example ToDo", isImportant: false)
     return NewToDoView(toDoItem: toDo, showNewTask: .constant(true))
         .modelContainer(container)

@@ -4,31 +4,27 @@
 //
 //  Created by SriSai on 7/30/24.
 //
-
 import SwiftUI
-
 struct HomeScreen: View {
     var body: some View {
         NavigationView {
-            GeometryReader { geometry in
-                VStack(spacing: 20) { // Adds spacing between elements.
-                    
-                    // Main Image
-                    Image("style2")
-                        .resizable()
-                        .scaledToFill()
-                        .frame(width: 300, height: 350)
-                    
+            ZStack {
+                // Background Image
+                Image("bg")
+                    .resizable()
+                    .scaledToFill()
+                    .ignoresSafeArea()
+                
+                VStack {
                     // Title
-                    Text("Hello User!")
-                        .font(.title)
+                    Text("Welcome to MindSpace")
                         .fontWeight(.bold)
-                        .bold()
-                    
-                    // Screen Information
-                    Text("Welcome to MindSpace! Explore the features below to add tasks, set reminders, and keep a journal, all designed to help you stay organized and mindful.")
-                        .font(.custom("Klasik-Regular", size: 17))
+                        .font(.custom("Klasik Regular", size: 40))
+                        .foregroundColor(Color(hex: "573353"))
                         .multilineTextAlignment(.center)
+                        .padding(.top, 100)
+                    
+                    Spacer()
                     
                     // Buttons
                     HStack(spacing: 20) {
@@ -37,29 +33,29 @@ struct HomeScreen: View {
                             Text("Journal")
                                 .fontWeight(.bold)
                                 .frame(width: 160, height: 45)
-                                .background(Color(hex: "91D7E0"))
+                                .background(Color(hex: "FDA758"))
+                                .foregroundColor(Color(hex: "573353"))
                                 .cornerRadius(5)
-                                .foregroundColor(.white)
                         }
-                    
+                        
                         // Tasks Button
                         NavigationLink(destination: Tasks()) {
                             Text("Tasks")
                                 .fontWeight(.bold)
                                 .frame(width: 160, height: 45)
-                                .background(Color(hex: "91D7E0"))
+                                .background(Color(hex: "FDA758"))
                                 .cornerRadius(5)
-                                .foregroundColor(.white)
+                                .foregroundColor(Color(hex: "573353"))
                         }
                     }
+                    .offset(y: 200)
+                    Spacer()
                 }
                 .padding()
-                .frame(width: geometry.size.width, height: geometry.size.height)
             }
         }
     }
 }
-
 // Allows the usage of hex codes, this subroutine is not mine.
 extension Color {
     init(hex: String) {
@@ -81,7 +77,6 @@ extension Color {
         self.init(red: red, green: green, blue: blue)
     }
 }
-
 #Preview {
     HomeScreen()
 }

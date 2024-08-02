@@ -7,12 +7,22 @@ struct ResultsView: View {
     var body: some View {
         VStack {
             Text("Results")
-                .font(.headline)
                 .padding(.bottom, 20)
+                .foregroundColor(Color(hex: "573353"))
+                .font(.custom("Klasik Regular", size: 35))
+                .multilineTextAlignment(.center)
+                .padding(.horizontal, 20.0)
             
             Text(feedbackMessage())
+                .frame(width: 300)
                 .padding()
-            
+                .background(Color(hex: "FDA758"))
+                .cornerRadius(8)
+                .padding(.bottom, 10)
+                .foregroundColor(Color(hex: "573353"))
+                .font(.custom("Klasik Regular", size: 15))
+                .multilineTextAlignment(.center)
+                .padding(.horizontal, 20.0)
             
             
         }
@@ -40,7 +50,7 @@ struct ResultsView: View {
         if panicCount > 1 {
             return "PanickAttackVid"
         } else if anxietyCount > 1 {
-            return "anxiety_video"
+            return "Anxiety_Attack"
         } else {
             return "normal_video"
         }
