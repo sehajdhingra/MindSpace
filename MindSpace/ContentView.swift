@@ -1,24 +1,39 @@
 //
 //  ContentView.swift
-//  MindSpace
+//  MindSpaceProject
 //
-//  Created by Umang Dhingra on 8/2/24.
+//  Created by SriSai on 8/1/24.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello")
+        NavigationView {
+            TabView {
+                HomeScreen().tabItem {
+                    Image(systemName: "house.fill")
+                    Text("Home Screen")
+                }
+                
+                CalendarScreen().tabItem {
+                    Image(systemName: "calendar")
+                    Text("Calendar")
+                }
+                
+                Mental().tabItem {
+                    Image(systemName: "heart.fill")
+                    Text("Mental Health")
+                }
+            }
+            // .accentColor(Color(hex: "FDA758"))
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentScreen_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+            .environmentObject(EventStore(preview: true))
+    }
 }

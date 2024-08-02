@@ -17,6 +17,13 @@
 		0976D3D82C5C89E50096744D /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0976D3D72C5C89E50096744D /* CalendarView.swift */; };
 		0976D3DA2C5C89F40096744D /* CalendarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0976D3D92C5C89F40096744D /* CalendarScreen.swift */; };
 		0976D3DC2C5C8A300096744D /* DaysEventsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0976D3DB2C5C8A300096744D /* DaysEventsListView.swift */; };
+		0976D3DF2C5C8BA60096744D /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0976D3DE2C5C8BA60096744D /* HomeScreen.swift */; };
+		0976D3E32C5C8BFB0096744D /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0976D3E22C5C8BFB0096744D /* Tasks.swift */; };
+		0976D3E52C5C8C280096744D /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0976D3E42C5C8C280096744D /* NewToDoView.swift */; };
+		0976D3E72C5C8C3F0096744D /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0976D3E62C5C8C3F0096744D /* ToDoItem.swift */; };
+		0976D3E92C5C8C650096744D /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0976D3E82C5C8C650096744D /* Journal.swift */; };
+		0976D3EB2C5C8C760096744D /* NewEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0976D3EA2C5C8C760096744D /* NewEntryView.swift */; };
+		0976D3ED2C5C8C990096744D /* EntryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0976D3EC2C5C8C990096744D /* EntryItem.swift */; };
 		7D34C77C2C5C828100D803EB /* MindSpaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D34C77B2C5C828100D803EB /* MindSpaceApp.swift */; };
 		7D34C77E2C5C828100D803EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D34C77D2C5C828100D803EB /* ContentView.swift */; };
 		7D34C7802C5C828400D803EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D34C77F2C5C828400D803EB /* Assets.xcassets */; };
@@ -39,6 +46,13 @@
 		0976D3D72C5C89E50096744D /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		0976D3D92C5C89F40096744D /* CalendarScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarScreen.swift; sourceTree = "<group>"; };
 		0976D3DB2C5C8A300096744D /* DaysEventsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysEventsListView.swift; sourceTree = "<group>"; };
+		0976D3DE2C5C8BA60096744D /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		0976D3E22C5C8BFB0096744D /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+		0976D3E42C5C8C280096744D /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		0976D3E62C5C8C3F0096744D /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		0976D3E82C5C8C650096744D /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		0976D3EA2C5C8C760096744D /* NewEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEntryView.swift; sourceTree = "<group>"; };
+		0976D3EC2C5C8C990096744D /* EntryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryItem.swift; sourceTree = "<group>"; };
 		7D34C7782C5C828100D803EB /* MindSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D34C77B2C5C828100D803EB /* MindSpaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindSpaceApp.swift; sourceTree = "<group>"; };
 		7D34C77D2C5C828100D803EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +101,36 @@
 			path = "Calendar Resources";
 			sourceTree = "<group>";
 		};
+		0976D3DD2C5C8B960096744D /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				0976D3DE2C5C8BA60096744D /* HomeScreen.swift */,
+				0976D3E02C5C8BE20096744D /* Tasks */,
+				0976D3E12C5C8BE90096744D /* Journal */,
+			);
+			path = "Home Screen";
+			sourceTree = "<group>";
+		};
+		0976D3E02C5C8BE20096744D /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				0976D3E22C5C8BFB0096744D /* Tasks.swift */,
+				0976D3E42C5C8C280096744D /* NewToDoView.swift */,
+				0976D3E62C5C8C3F0096744D /* ToDoItem.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		0976D3E12C5C8BE90096744D /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				0976D3E82C5C8C650096744D /* Journal.swift */,
+				0976D3EA2C5C8C760096744D /* NewEntryView.swift */,
+				0976D3EC2C5C8C990096744D /* EntryItem.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
 		7D34C76F2C5C828100D803EB = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +150,7 @@
 		7D34C77A2C5C828100D803EB /* MindSpace */ = {
 			isa = PBXGroup;
 			children = (
+				0976D3DD2C5C8B960096744D /* Home Screen */,
 				0976D3C72C5C88B30096744D /* Calendar */,
 				7D34C7892C5C853A00D803EB /* Mental Health */,
 				7D34C77B2C5C828100D803EB /* MindSpaceApp.swift */,
@@ -208,18 +253,25 @@
 			files = (
 				0976D3CE2C5C89220096744D /* EventStore.swift in Sources */,
 				0976D3D62C5C89D20096744D /* ListViewRow.swift in Sources */,
+				0976D3E72C5C8C3F0096744D /* ToDoItem.swift in Sources */,
 				7D34C78D2C5C867400D803EB /* Mental.swift in Sources */,
 				0976D3CC2C5C88FF0096744D /* Event.swift in Sources */,
 				0976D3DC2C5C8A300096744D /* DaysEventsListView.swift in Sources */,
 				0976D3D22C5C89820096744D /* EventFormView.swift in Sources */,
+				0976D3E92C5C8C650096744D /* Journal.swift in Sources */,
 				0976D3D82C5C89E50096744D /* CalendarView.swift in Sources */,
+				0976D3E32C5C8BFB0096744D /* Tasks.swift in Sources */,
 				7D34C77E2C5C828100D803EB /* ContentView.swift in Sources */,
+				0976D3ED2C5C8C990096744D /* EntryItem.swift in Sources */,
 				7D34C77C2C5C828100D803EB /* MindSpaceApp.swift in Sources */,
 				0976D3CA2C5C88D90096744D /* Date.swift in Sources */,
 				0976D3DA2C5C89F40096744D /* CalendarScreen.swift in Sources */,
 				7D34C78F2C5C86A400D803EB /* ResultsView.swift in Sources */,
 				7D34C7912C5C86CB00D803EB /* QuestionView.swift in Sources */,
 				7D34C7932C5C86DA00D803EB /* SurveyQuestion.swift in Sources */,
+				0976D3E52C5C8C280096744D /* NewToDoView.swift in Sources */,
+				0976D3EB2C5C8C760096744D /* NewEntryView.swift in Sources */,
+				0976D3DF2C5C8BA60096744D /* HomeScreen.swift in Sources */,
 				7D34C78B2C5C85F500D803EB /* MentalHealthScreen.swift in Sources */,
 				0976D3D02C5C89430096744D /* EventFormType.swift in Sources */,
 				0976D3D42C5C89A60096744D /* EventFormViewModel.swift in Sources */,

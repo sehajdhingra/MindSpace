@@ -12,6 +12,8 @@ struct MindSpaceApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .modelContainer(for: [ToDoItem.self, EntryItem.self])
+                .environmentObject(EventStore(preview: true))
         }
     }
 }
